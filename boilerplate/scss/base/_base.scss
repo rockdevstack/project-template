@@ -1,0 +1,95 @@
+// FONTS
+
+*, 
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+html{
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    font-size: var(--baseFontSize);
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--baseFontFamily);
+    color: var(--textPrimaryColor);
+    line-height: var(--lineheight);
+    -webkit-font-smooth: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body.dark{
+    color: var(--textPrimaryColor);
+}
+
+/* WEB SCROLL BAR */
+::webkit-scrollbar{
+    //define the width
+        width: var(--scrollbarWidth);
+}
+    
+::webkit-scrollbar-track{
+    //define bg color line track
+    background-color: #3a3a3a;
+}
+    
+::webkit-scrollbar-thumb{
+    //define the color of the thumb
+    background-color: #f2f2f2;
+}
+
+/* TEXT FIELD PLACEHOLDER */
+::placeholder{
+    
+}
+
+/* TEXT FIELD THEME PLACEHOLDER */
+::selection{
+
+}
+
+/* TOOL TIP for input */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

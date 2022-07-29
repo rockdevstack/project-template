@@ -1,0 +1,131 @@
+/* VARIABLES */
+:root{
+
+        
+    /* THEME COLORS */
+        --colorPrimary: hsl(255%, 145%, 0%);
+        --colorPrimaryHover: orange;
+
+        --colorPrimaryDark: rgb(39, 39, 39);
+        --colorPrimaryHover: rgb(255, 145, 0);
+        
+        --secondaryPrimary: rgb(230, 152, 8);
+        --tertiaryColor: rgb(255, 96, 11);
+    
+        --textPrimaryColor: #fff;
+        --textSecondaryColor: #4e4e4e;
+        
+        --textLinkColor: #4e4e4e;
+    
+        --bgMainColor: #fff;
+
+    /* COMPONENTS HEIGHT */
+    
+        --headerNavHeight: 5rem; /* 50px */
+        --heroBannerHeight: calc(100vh - var(--headerNavHeight));
+
+ 
+    /* BASE FONT & TYPOGRAPHY */
+        --baseFontSize: 62.5%; /* 10px/16px = 0.625 for relative fonts */
+    
+        --heading: 1rem;
+        --subheading: 1rem;
+        --paragraph: 1rem;
+    
+    /* FONT WEIGHT */
+        --fw-normal: 500;
+        --fw-semibold: 600;
+        --fw-bold: bold;
+        --header: 2.5rem;
+        --subheader: 2.0rem;
+
+
+    /* 300px */
+        --sideNavWidth: 30rem;
+    
+    /* MODAL DIALOG */
+        --modalWidth: 40rem;
+
+    /* CONTAINER */
+        --containerMaxWidth: 1440px;
+
+    /* SCROLLBAR THEME */
+        --scrollbarWidth: 35px;
+        --scrollbarTrackColor: orange;
+        --scrollbarThumbColor: orange;
+         
+    /* MARGINS & PADDING */
+        --mg-1: 1rem;
+        --mg-2: 1.5rem;
+        --mg-3: 2rem;
+        --mg-4: 2.5rem;
+        --mg-5: 3rem;
+        --mg-6: 3.4rem;
+    
+        --pd-1: 1rem;
+        --pd-2: 1.5rem;
+        --pd-3: 2rem;
+        --pd-4: 2.5rem;
+        --pd-5: 3rem;
+        --pd-6: 3.4rem;
+    
+    /* LINE HEIGHT & WORD/LETTER SPACING */
+        --lineheight: 1.1rem;
+
+    /* SVG ICON SIZE */
+        --svgIconSize: 2.2rem;    
+        --svgIconColor: var(--colorPrimary);    
+
+    
+    /* Z-INDEX */
+        --z-tooltip: 10;
+        --z-fixed: 100;
+        --z-modal: 110;
+    
+    /* BOX SHADOW & DIVIDER */
+        --shd-light: 0 2px 4px rgba(68, 68, 68, 0.7);
+        --div-light: 1px solid rgba(252, 252, 252, 0.665);
+    
+    /* ANIM DURATION & CUBIC TRANS */
+        --anim-slow: 0.5s;
+        --anim-avg: 0.3.5s;
+        --anim-fast: 0.2s;
+    
+    
+    /* GRIDS  */
+        --gd-gap-sm: 1rem;
+        --gd-gap-md: 2rem;
+        --gd-gap-lg: 2.5rem;
+        --gd-gap-xl: 3rem;
+    
+    /* CUSTOM & FIXED MEDIA QUERIES */
+        --screen-xs: 30rem;
+        --screen-md: 60rem; 
+        --screen-lg: 144rem;
+        --screen-lg-port: 14.4rem;
+    
+    /* INPUT OUTLINES */
+        
+    
+    /* IMG - AVATAR SIZE */
+        --avatar-xm: 1.5rem;
+        --avatar-md: 3rem;
+        --avatar-lg: 4rem;
+    
+    
+    /* CLIP PATH - CLAMP */
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+

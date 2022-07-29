@@ -1,0 +1,14 @@
+{
+  "name": "starterfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-scss": "node-sass ",
+    "browsersync": "",
+    "bundle-all": "",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
